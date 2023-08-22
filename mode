@@ -1,0 +1,6 @@
+v<-c(1,2,2,2,3,4,5)
+mode=function()
+{
+  return(names(sort(-table(v)))[1])
+}
+mode()
